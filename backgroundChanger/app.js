@@ -14,7 +14,7 @@ btn.addEventListener("click", function( ) {
     const randomNumber = getRandomNum();
     console.log(randomNumber)
 
-    document.body.style.backgroundColor = colors[randomNumber];
+    document.body.style.backgroundColor = colorsArr[randomNumber];
     color.textContent = colorsArr[randomNumber];
 });
 
