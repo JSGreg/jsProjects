@@ -8,14 +8,15 @@ const color =document.querySelector(".color");
 
 // listens for button clicks
 
-testBool = false;
+// testBool = false;
 
-
+let testBool = false;
+function toggle() {
+    testBool = !testBool;
+}
 // console.log(testBool);
 btn.addEventListener("click", function( ) {
     // log
-
-    
     console.log(testBool);
     while (testBool = true) {
 
@@ -29,13 +30,16 @@ btn.addEventListener("click", function( ) {
         document.body.style.backgroundColor= hexColor;
 
         //stops loop (Sets to false but doesn't stop loop?) might need to drag script from color_show.html
-        boolStop= coin();
-        console.log(boolStop)
-        if(boolStop%2 == 0){
+        // boolStop= coin();
+        // console.log(boolStop)
+        // if(boolStop%2 == 0){
         
-            testBool=false;
-            console.log(testBool)
-        }
+        //     testBool=false;
+        //     console.log(testBool)
+        // }
+        btn.addEventListener("click", function( ) {
+            testBool == false;
+        });
     }
 });
 // console.log(testBool);
