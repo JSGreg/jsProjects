@@ -8,7 +8,7 @@ const color =document.querySelector(".color");
 
 // listens for button clicks
 
-// testBool = false;
+testBool = false;
 
 let testBool = false;
 function toggle() {
@@ -37,9 +37,6 @@ btn.addEventListener("click", function( ) {
         //     testBool=false;
         //     console.log(testBool)
         // }
-        btn.addEventListener("click", function( ) {
-            testBool == false;
-        });
     }
 });
 // console.log(testBool);
